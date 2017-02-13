@@ -64,30 +64,5 @@ namespace GenoomApi.Test.Controllers
 
             Assert.False(value.DidError);
         }
-
-
-        //[Fact]
-        //public async Task Production_CreateProductAsync()
-        //{
-        //    using (var repository = RepositoryMocker.AdventureWorksRepository)
-        //    {
-        //        // Arrange
-        //        var controller = new ProductionController(repository);
-
-        //        var viewModel = new ProductViewModel
-        //        {
-        //            ProductName = String.Format("New test product {0}{1}{2}", DateTime.Now.Minute, DateTime.Now.Second, DateTime.Now.Millisecond),
-        //            ProductNumber = String.Format("{0}{1}{2}", DateTime.Now.Minute, DateTime.Now.Second, DateTime.Now.Millisecond)
-        //        };
-
-        //        // Act
-        //        var response = await controller.CreateProduct(viewModel) as ObjectResult;
-
-        //        // Assert
-        //        var value = response.Value as ISingleModelResponse<ProductViewModel>;
-
-        //        Assert.False(value.DidError);
-        //    }
-        //}
     }
 }
