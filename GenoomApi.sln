@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F5638BD4-6AF4-43CF-8AA3-1FF1B93D45D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{137D10E9-5956-4CF5-BA8F-68619DF9A2B5}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "GenoomApi", "src\GenoomApi\GenoomApi.xproj", "{E8904BDC-8C5F-4104-A537-8E2A65C80664}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Core", "src\Core\Core.xproj", "{8552A021-2914-4337-BE80-0EA0691E0A8C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{6BFB1BEB-2C50-4504-97F5-81938442CF45}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "GenoomApi.Test", "test\GenoomApi.Test\GenoomApi.Test.xproj", "{C5DA56DC-0263-4DE7-A8B7-9DC48D603F3E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8904BDC-8C5F-4104-A537-8E2A65C80664}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8904BDC-8C5F-4104-A537-8E2A65C80664}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8904BDC-8C5F-4104-A537-8E2A65C80664}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8904BDC-8C5F-4104-A537-8E2A65C80664}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8552A021-2914-4337-BE80-0EA0691E0A8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8552A021-2914-4337-BE80-0EA0691E0A8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8552A021-2914-4337-BE80-0EA0691E0A8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8552A021-2914-4337-BE80-0EA0691E0A8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5DA56DC-0263-4DE7-A8B7-9DC48D603F3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5DA56DC-0263-4DE7-A8B7-9DC48D603F3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5DA56DC-0263-4DE7-A8B7-9DC48D603F3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5DA56DC-0263-4DE7-A8B7-9DC48D603F3E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E8904BDC-8C5F-4104-A537-8E2A65C80664} = {F5638BD4-6AF4-43CF-8AA3-1FF1B93D45D2}
+		{8552A021-2914-4337-BE80-0EA0691E0A8C} = {F5638BD4-6AF4-43CF-8AA3-1FF1B93D45D2}
+		{C5DA56DC-0263-4DE7-A8B7-9DC48D603F3E} = {6BFB1BEB-2C50-4504-97F5-81938442CF45}
+	EndGlobalSection
+EndGlobal
