@@ -24,3 +24,29 @@ CREATE TABLE [dbo].[Person] (
 
 ### NOTA:
 AL agregar nuevos Padres o Hijos se tiene que especificar el Sexo como tal. para poder ayudar a catalogar la relación exacta entre la Persona.
+
+
+### Enumerado de Relaciones 
+
+ public enum Relation
+    {
+        None = 0,
+
+        Fhater = 1,
+
+        Mother = 2,
+
+        Brother = 3,
+
+        Sister = 4,
+
+        Wife = 6,
+
+        Husband = 7,
+
+        Adopted = 8,
+
+        Son = 9,
+
+        Daughter = 10
+    }
